@@ -10,5 +10,5 @@ const root = document.getElementById("root");
 
 // root.append(div);
 
-const div = React.createElement("div");
-ReactDOM.createRoot(root).render(div);
+//const div = React.createElement("div");
+ReactDOM.createRoot(root).render(<Card />);
